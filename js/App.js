@@ -1,4 +1,4 @@
-$(function () {
+
             var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
             var myHeaders = {
                 'X-Client-Id': '2658',
@@ -16,7 +16,7 @@ $(function () {
                     setupColumns(response.columns);
                 }
             });
-        }
+     
 
         function setupColumns(columns) {
             columns.forEach(function (column) {
